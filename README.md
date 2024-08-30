@@ -25,27 +25,31 @@ Currently, the project integrates with the following news API:
 git clone [https://github.com/Syam7093/Frontend-Take-Home-Challenge.git]
 
 **2. Install Dependencies:**
+
 npm install
 
 **3. Start the Development Server:**
+
 npm start
 
 
 ## Docker Containerization
 **1. Build the Docker Image:**
+
 docker build -t news-aggregator.
 
 **2. Run the Docker Container:**
+
 docker run -p 3000:3000 news-aggregator
 
 ## Project Structure
 The project is organized into the following directories:
 
-src/
-components/: Contains reusable React components that build the user interface.   
-services/: Houses functions for interacting with APIs and fetching data.
-App.js: The main application component that coordinates other components and renders the user interface.
-Dockerfile: Defines the instructions for building the Docker image.
+* **src/**
+* **components/:** Contains reusable React components that build the user  interface.   
+* **services/:** Houses functions for interacting with APIs and fetching data.
+* **App.js:** The main application component that coordinates other components and renders the user interface.
+* **Dockerfile:** Defines the instructions for building the Docker image.
 
 
 
