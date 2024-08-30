@@ -50,7 +50,7 @@ function Header({ onSearch }) {
           <option value="">All Sources</option>
           <option value="bbc-news">NewsAPI</option>
           <option value="cnn">The Guardian:</option>
-          <option value="cnn">New York Times</option>
+          
 
           
         </select>

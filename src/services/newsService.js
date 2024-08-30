@@ -6,6 +6,8 @@ const API_KEYS = {
   nyt: process.env.REACT_APP_NYT_API_KEY,
 };
 
+console.log(API_KEYS,"API_KEYS--")
+
 export const fetchNewsAPI = async (query = "latest", filters) => {
   const response = await axios.get(`https://newsapi.org/v2/everything`, {
     params: {
